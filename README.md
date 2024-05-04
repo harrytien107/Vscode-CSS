@@ -1,3 +1,2 @@
-Nothing here 
-Just an Asian man going thought 
-Ain't it boring. Nah I don't 
+###VScode theme
+official theme from: https://github.com/evondev/evondev-dracula
