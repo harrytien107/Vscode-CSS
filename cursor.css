@@ -1,0 +1,10 @@
+.monaco-editor .cursors-layer .cursor {
+  background-image: linear-gradient(
+    245deg,
+    #fcb564,
+    #ff65f2,
+    #d66efd
+  ) !important;
+}
+/* .monaco-editor .cursors-layer .cursor {
+  background-image: linear-gradient(to top, #6a5af9, #d66efd, #fc6c8f, #ff2ced); */
