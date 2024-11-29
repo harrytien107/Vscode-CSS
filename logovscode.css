@@ -5,6 +5,7 @@
 }
 
 .editor-group-watermark .letterpress {
-  background-image: url("file:///D:/CODE/Vscode-CSS/assets/VSCode.png") !important;
+  background-image: url("./assets/VSCode.png") !important;
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png") !important;
   aspect-ratio: 8/5 !important;
 }
