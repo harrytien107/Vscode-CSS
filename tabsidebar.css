@@ -1,0 +1,142 @@
+
+  /* .monaco-list-row.focused.selected { 
+    background-image: linear-gradient(
+      90deg,
+      rgba(25, 26, 46, 1) 0%,
+      rgba(25, 26, 46, 0.12) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(229, 71, 255, 0) 36.27%,
+      rgb(255, 71, 149) 71.37%,
+      rgb(255, 204, 71) 92.98%
+    ) !important;
+  } */
+  .monaco-list-row.selected {
+    /* background-image: linear-gradient(var(--gradient-dir1),#fcb564,#ff65f2,#d66efd) !important; */
+    /* background-image: linear-gradient(
+      #00aefd,
+      #20e3b2,
+      #fcb564,
+      #ff65f2,
+      #ff69cf
+    ); */
+    /* transform: translate3d(0%, 0%, 0) !important; */
+
+    /* animation: gradient 3s linear infinite; */
+    /* animation: gradient 5s ease alternate infinite  !important; */
+    /* animation: spinner var(--duration) cubic-bezier(0.445, 0.05, 0.55, 0.95)
+    infinite;  */
+    /* animation: grow-shrink 3s infinite !important; */
+    /* animation: slide-in 0.7s alternate cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite !important; */
+    /* animation: bounce 2s infinite; */
+    /* animation: color-slide-in var(--duration) cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite; */
+    /* backdrop-filter: blur(1.5px); */
+
+      --border-width: 1px;
+    
+
+      font-family: Cascadia Code, sans-serif;
+      color: white;
+        position: absolute;
+        content: "";
+        top: calc(-1 * var(--border-width));
+        left: calc(-1 * var(--border-width));
+        z-index: -1;
+        width: calc(100% + var(--border-width) * 2);
+        height: calc(100% + var(--border-width) * 2);
+        background: linear-gradient(
+          60deg,
+          hsl(224, 85%, 66%),
+          hsl(269, 85%, 66%),
+          hsl(314, 85%, 66%),
+          hsl(359, 85%, 66%),
+          hsl(44, 85%, 66%)
+        );
+        background-size: 300% 300%;
+        background-position: 0 50%;
+        border-radius: 20px !important; 
+        animation: moveGradient 4s alternate infinite;  
+    
+
+
+  
+  /* Vuông gradient */
+  /* border:0.5px solid transparent; 
+  border-width: 10px  transparent !important;  */
+  /* padding: 2rem 1rem;
+  min-height: 3em; */
+  /* resize: both; */
+  /* background: #ffd73e33; */
+/* Base style with animated border */
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='40' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 3s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23407cff' /%3E%3Cstop offset='25%25' stop-color='%23da8bff' /%3E%3Cstop offset='50%25' stop-color='%23ff65f2' /%3E%3Cstop offset='100%25' stop-color='%23fcb564' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='round' stroke='url(%23g)' stroke-width='50' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+
+}
+  
+
+
+  
+
+@keyframes moveSkulls {
+  0% {
+    background-position: 24px 0;
+  }
+}
+
+
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+/* @keyframes spinner {
+  100% {
+    -webkit-border-image: translate(-50%, -50%) rotate(1turn);
+  }
+} */
+/* @keyframes grow-shrink {
+  25%,
+  75% {
+    scale: 90%;
+  }
+
+  50% {
+    scale: 100%;
+    color: rgb(255, 255, 255);
+  }
+} */
+
+/* @keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+} */
+
+/* @keyframes bounce  {
+  0% { transform: translateX(-5); }
+  50% { transform: translateX(-5px); }
+  100% { transform: translateX(5); }
+} */
+
+
+/* @keyframes color-slide-in {
+  0% {   
+    background-image: linear-gradient(var(--gradient-dir1), #407cff , #da8bff); }
+  25% {   
+    background-image: linear-gradient(var(--gradient-dir2), #ff65f2 , #fcb564); }
+  50% {   
+    background-image: linear-gradient(var(--gradient-dir3), #407cff , #da8bff);   }
+  75% {   
+    background-image: linear-gradient(var(--gradient-dir4),#ff65f2 , #fcb564);   }
+  100% {  
+    background-image: linear-gradient(var(--gradient-dir5), #407cff , #da8bff);  }
+} */
