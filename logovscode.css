@@ -5,7 +5,9 @@
 }
 
 .editor-group-watermark .letterpress {
-  background-image: url("./assets/VSCode.png") !important;
-  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png") !important;
+  /* background-image: url("./assets/VSCode.png") !important; */
+  background-image: url("https://raw.githubusercontent.com/harrytien107/Vscode-CSS/main/assets/VisualStudioCode(1).png") !important;
+  /* background-image: url("https://kate-editor.org/post/2024/2024-06-08-kate-fun-logo/images/kate-animated.svg") !important; */
+  
   aspect-ratio: 8/5 !important;
 }
