@@ -46,13 +46,9 @@
         width: calc(100% + var(--border-width) * 2);
         height: calc(100% + var(--border-width) * 2);
         background: linear-gradient(
-          60deg,
-          hsl(224, 85%, 66%),
-          hsl(269, 85%, 66%),
-          hsl(314, 85%, 66%),
-          hsl(359, 85%, 66%),
-          hsl(44, 85%, 66%)
-        );
+          /* 60deg, */
+          to right top,
+          #d16ba4, #c271b2, #af78be, #9b7ec5, #8584c9, #7a85ce, #6d87d2, #5d88d6, #5387e0, #4985eb, #3c83f5, #2d81ff);
         background-size: 300% 300%;
         background-position: 0 50%;
         border-radius: 20px !important; 

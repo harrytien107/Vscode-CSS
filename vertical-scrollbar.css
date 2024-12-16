@@ -1,4 +1,37 @@
+/*Vertical scrollbar*/
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
-  background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
+  /* background-image: linear-gradient(to top, #ffb86c, #ff6bcb); */
+  background-image: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%)
+  );
+  
   width: 3px !important;
+ 
 }
+
+/*Horizon scrollbar*/
+.monaco-scrollable-element>.scrollbar>.slider {
+  background-image: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%)
+  );
+  border-radius: 10px;
+  width: 4px !important;
+
+}
+
+.xterm .xterm-scrollable-element > .scrollbar > .slider {
+
+  border-radius: 10px;
+  width: 5px !important;
+}
+

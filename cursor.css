@@ -1,17 +1,17 @@
-.monaco-editor .cursors-layer .cursor {
+/* .monaco-editor .cursors-layer .cursor {
   background-image: linear-gradient(
     245deg,
     #ebdbb2,
     #ebdbb2,
     #ebdbb2
-  ) !important;
-}
+  ) !important; 
+}*/
   /* #fcb564,
   #ff65f2,
   #d66efd */
-/* .monaco-editor .cursors-layer .cursor {
-  background-image: linear-gradient(to top, #6a5af9, #d66efd, #fc6c8f, #ff2ced); */
-
+.monaco-editor .cursors-layer .cursor {
+  background-image: linear-gradient(to top, #6a5af9, #d66efd, #fc6c8f, #ff2ced);
+}
 @keyframes my-rotation {
   0% {
     transform: rotate(0deg);
