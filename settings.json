@@ -1,0 +1,471 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "Thorium",
+  "indentRainbow.colors": [
+    "rgba(247, 37, 133,0.15)",
+    "rgba(181, 23, 158,0.15)",
+    "rgba(114, 9, 183, 0.15)",
+    "rgba(86, 11, 173,0.15)",
+    "rgba(72, 12, 168,0.15)",
+    "rgba(58, 12, 163,0.15)",
+    "rgba(63, 55, 201,0.15)",
+    "rgba(63, 55, 201,0.1)",
+    "rgba(63, 55, 201,0.05)",
+    "rgba(63, 55, 201,0.025)"
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  //Chinh sua font chu
+  // "editor.fontFamily": " SF Mono, Consolas, 'Courier New', monospace", 
+  //,Zed Mono,Fire Code, Dank Mono, JetBrains Mono, Cascadia Code
+  "editor.fontFamily": "Zed Mono Nerd Font, JetBrainsMono Nerd Font Mono,  SF Mono, Consolas, 'Courier New', monospace, Cascadia Code",
+  "editor.lineHeight": 25,
+  "terminal.integrated.letterSpacing": 0.5,
+  "editor.letterSpacing": 1.2,
+  "editor.fontWeight": 500, //"normal 400"
+  "editor.fontLigatures": true,
+  "settingsSync.ignoredSettings": [],
+  "workbench.colorTheme": "Evondev Dracula High Contrast New Color",
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 15,
+  "editor.linkedEditing": true,
+
+  "background.enabled": true,
+  "background.editor": {
+    "images": [
+      "file:///D:/Pic/20240506_090753.jpg",
+      "file:///D:/Pic/em.png",
+      "file:///D:/Pic/rei.png"
+    ],
+    "style": {
+      "content": "''",
+      "pointer-events": "none",
+      "z-index": "99999",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "background-size": "contain",
+      "opacity": 0.4,
+      "-webkit-mask-image": "linear-gradient(90deg, transparent, black, black)",
+      "-webkit-mask-size": "40% 100%",
+      "-webkit-mask-repeat": "no-repeat",
+      "-webkit-mask-position": "right top, right bottom"
+    }
+  },
+
+  // "background.enabled": true,
+  // "background.editor": {
+  //   "images": ["file:///D:/Pic/wallpapers%20linh%20tinh/h%20(58).jpg"],
+  //   "useFront": false,
+  //   "style": {
+  //     // "background-position": "100% 100%",
+  //     "background-size": "auto",
+  //     "opacity": 0.5,
+  //     "position": "Left"
+  //   }
+  // },
+  // "background.fullscreen": {
+  //   "images": ["file:///D:/Pic/wallpapers%20linh%20tinh/1349198.png"],
+  //   "opacity": 0.91,
+  //   "size": "cover",
+  //   "position": "center",
+  //   "interval": 0,
+  //   "random": false
+  // },
+
+  //   "background.style": {
+  //     "content": "''",
+  //     "pointer-events": "none",
+  //     "position": "absolute",
+  //     "right": "0",
+  //     "bottom": "0",
+  //     "width": "10vw",
+  //     "z-index": "9999",
+  //     "background-size": "contain",
+  //     "opacity": 0.3,
+  // },
+  "background.sidebar": {
+    "images": ["file:///D:/Pic/20250814_105950.jpg"]
+  }, // sidebar
+  "background.panel": {
+    "images": ["file:///D:/Pic/twitter_ArtStation(@ArtStationHQ_)_20250117-152610_1880275428738318825_photo.jpg"]
+  }, // panel
+  "background.auxiliarybar": {
+    "images": ["file:///D:/Pic/20250925_000042.jpg"]
+  }, // auxiliarybar
+
+  "doki.sticker.enabled": false,
+  "doki.sticker.path": "D:\\GIF\\konoshuba-aqua.gif",
+  "doki.sticker.opacity": 0.8,
+  "doki.background.enabled": true,
+  "doki.background.path": "D:\\CODE\\harrytien107\\assets\\anime.gif",
+  // "doki.wallpaper.path": "D:\\CODE\\harrytien107\\assets\\anime.gif",
+  //"doki.background.anchor": "center",
+
+  "vscode_custom_css.imports": [
+    "file:///D:/CODE/Vscode-CSS/logovscode.css",
+    "file:///D:/CODE/Vscode-CSS/vertical-scrollbar.css",
+    "file:///D:/CODE/Vscode-CSS/cursor.css",
+    "file:///D:/CODE/Vscode-CSS/evondev-dracula.css",
+    // "file:///D:/CODE/Vscode-CSS/tabsidebar.css",
+
+    //Top border animation ket hop duoc voi circleborder.css
+    // "file:///D:/CODE/Vscode-CSS/center-line-gradient.css"
+    // "file:///D:/CODE/Vscode-CSS/BogocTab.css",
+    "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/2lines-animation.css",
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/border-top-animation.css",
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/rounded-tab.css",
+
+    //Riêng lẻ
+
+    // 4 góc gradient
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/corner-gradient.css",
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/neon-line-animation.css"
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/rounded-line-neon.css",
+
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/dracula-author.css",
+    // "https://raw.githubusercontent.com/evondev/vscode-custom/refs/heads/master/styles/evondev-dracula.css",
+  ],
+
+  "terminal.integrated.mouseWheelZoom": true,
+  "git.ignoreMissingGitWarning": true,
+  "remoteHub.commitDirectlyWarning": "off",
+  "vsicons.dontShowNewVersionMessage": true,
+  "github.copilot.advanced": {
+    "authProvider": "github"
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt", // 1 file cpp
+    "cpp": "cd $dir && g++ *.cpp -o $fileNameWithoutExt && $dir$fileNameWithoutExt", // multiple files cpp
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName",
+    "mojo": "mojo run",
+    "erlang": "escript",
+    "spwn": "spwn build",
+    "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+    "gleam": "gleam run -m $fileNameWithoutExt"
+  },
+  "continue.enableTabAutocomplete": true,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "editor.wordWrapColumn": 100,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "expand", //expand
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.confirmDelete": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.rulers": [],
+  //Chinh sua mau cua cursor
+  "workbench.colorCustomizations": {
+    "selection.background": "#135564",
+    "editorIndentGuide.background1": "#000",
+    "editorIndentGuide.activeBackground1": "#0000",
+    "editor.selectionBackground": "#3790f6b9",
+    // "editor.selectionHighlightBackground": "#135564",
+    "editor.selectionHighlightBorder": "#0000",
+    // "editor.lineHighlightBackground": "#0000",
+    // "editor.blockHighlightBackground": "#0000"
+    "editorBracketMatch.border": "#9b19dcb9",
+    "editor.selectionBorder": "#0000",
+    "editor.lineHighlightBorder": "#0000",
+    "editor.sqlintellisense.foreground": "#ff0000"
+  },
+  "editor.cursorStyle": "line",
+
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  // A butterfly effect
+  // "powermode.enabled": true,
+  // "powermode.combo.location": "off",
+  // "powermode.shake.enabled": false,
+  // "powermode.explosions.customExplosions": [
+  //      "https://imgur.com/nfgkSBD.gif"
+  //  ],
+  // "powermode.explosions.explosionOrder": "sequential",
+  //  "powermode.explosions.size": 7,
+  //  "powermode.explosions.frequency": 1,
+  //  "powermode.explosions.maxExplosions": 1,
+  //  "powermode.explosions.offset": 0.315,
+  //  "powermode.explosions.customCss": {
+  //      "mix-blend-mode": "color-dodge"
+  //  },
+  //  "powermode.explosions.gifMode": "continue",
+  //  "powermode.explosions.duration": 1000,
+  //  "powermode.explosions.backgroundMode": "image",
+
+  //Sparkle!
+  //https://giphy.com/stickers/rupaulsdragrace-rupauls-drag-race-1fhj2RprUOpqCObj2J
+
+  // Lightning Effect
+  "powermode.enabled": true,
+  "powermode.combo.location": "off",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.customExplosions": [
+    "https://media.giphy.com/media/sLMRyFR4eIEgnFe4mK/giphy.gif",
+    "https://media.giphy.com/media/RFvv2miX3KHcOkBwns/giphy.gif",
+    "https://media.giphy.com/media/8Hw8ei9OiUXIUlHEBy/giphy.gif"
+  ],
+  "powermode.explosions.explosionOrder": "sequential",
+  "powermode.explosions.size": 15,
+  "powermode.explosions.frequency": 2,
+  "powermode.explosions.maxExplosions": 10,
+  "powermode.explosions.offset": 0.215,
+  "powermode.explosions.customCss": {
+    "mix-blend-mode": "color-dodge"
+  },
+  "powermode.explosions.gifMode": "restart",
+  "powermode.explosions.duration": 1000,
+  "powermode.explosions.backgroundMode": "mask",
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt",
+    "matlab.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+
+  //Bongo cat
+  // "powermode.enabled": true,
+  // "powermode.shake.intensity": 1,
+  // "powermode.shake.enabled": false,
+  // "powermode.explosions.offset": 0.23,
+  // "powermode.combo.counterEnabled": "hide",
+  // "powermode.explosions.maxExplosions": 1,
+  // "powermode.explosions.size": 20,
+  // "powermode.explosions.gifMode": "continue",
+  // "powermode.combo.counterSize": 0,
+  // "powermode.combo.timerEnabled": "hide",
+  // "powermode.explosions.customExplosions": [
+  //   "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a5382e0-3e5f-4759-be8a-ef1a069dfc0c/df3vfxf-4005413c-a864-46b7-a938-accc6d57b5fa.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhNTM4MmUwLTNlNWYtNDc1OS1iZThhLWVmMWEwNjlkZmMwY1wvZGYzdmZ4Zi00MDA1NDEzYy1hODY0LTQ2YjctYTkzOC1hY2NjNmQ1N2I1ZmEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9iAoQJn4ySJ1z-AtOH0lPklEeB2hvBbdBZAw9ORmJsg"
+  // ],
+  // "powermode.explosions.duration": 5000,
+  // "powermode.explosions.backgroundMode": "image",
+
+  // }
+  // VS Code automatically highlights selected words.
+  // "vim.hlsearch": false,
+  // "vim.timeout": 200,
+  // "vimuseSystemClipboard": true,
+  // "vim.insertModeKeyBindings": [
+  //   {
+  //     "before": ["k", "j"],
+  //     "after": ["<Esc>", "l"]
+  //   }
+  // ],
+  // "vim.useCtrlKeys": true,
+  // "vim.handleKeys": {
+  //   "<C-f>": true,
+  //   "<C-a>": false
+  // },
+  // "vim.normalModeKeyBindings": [
+  //   {
+  //     "before": ["v", "n"],
+  //     "after": ["v", "g", "_", "y"]
+  //   },
+  //   {
+  //     // find the source definition instead of the .d.ts file
+  //     // 'f'ind the source 'd'efinition
+  //     "before": ["f", "d"],
+  //     "commands": ["typescript.goToSourceDefinition"]
+  //   },
+  //   {
+  //     // df is easier to hit than gd
+  //     // go to the 'd'e'f'inition
+  //     "before": ["d", "f"],
+  //     "after": ["g", "d"]
+  //   },
+  //   {
+  //     "before": ["d", "n"],
+  //     "after": ["d", "g", "_"]
+  //   }
+  // ],
+  // "vim.normalModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["<C-n>"],
+  //     "commands": [":nohl"]
+  //   }
+  // ],
+  // // vim mode viwy viwcmd+d p issue hack
+  // "vim.visualModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["p"],
+  //     "commands": ["editor.action.clipboardPasteAction"]
+  //   }
+  // ],
+
+  "breadcrumbs.enabled": true,
+  "editor.codeLens": false,
+  "editor.glyphMargin": false,
+  // "editor.hover.enabled": false,
+  "editor.colorDecorators": true,
+  "editor.minimap.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.guides.indentation": false,
+  "editor.bracketPairColorization.enabled": true,
+  "prettier.singleQuote": true,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.renderLineHighlight": "all",
+
+  // font settings
+  // "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeightBold": "500",
+  "explorer.compactFolders": false,
+  //   "files.trimTrailingWhitespace": true,
+  //   "files.exclude": {
+  //     "**/node_modules": true,
+  //     "**/package-lock.json": true,
+  //     // Hide js files after running tsc.
+  //     "**/*.js": { "when": "$(basename).ts" }
+  //   },
+  //   "search.searchOnType": false,
+  //   "scm.diffDecorationsGutterAction": "none",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  //   // "terminal.integrated.gpuAcceleration": "on",
+  //   "typescript.updateImportsOnFileMove.enabled": "always",
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "vscode-mysql.enableTelemetry": false,
+  "database-client.variableIndicator": [":"],
+  "sqltools.highlightQuery": false,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "lldb.suppressUpdateNotifications": true,
+  "database-client.highlightSQLBlock": true,
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "be.frequency": "weekly",
+  "vscord.behaviour.suppressNotifications": true,
+  "prettier.tabWidth": 4,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "codium.codeCompletion.enable": false,
+  "codium.customInstructions.allMessages": "",
+  "codium.customInstructions.specificCommands": {},
+  "codium.editorButton": true,
+  "codium.codeCompletion.userInstructions": "",
+  "codium.rag.maxLocalSnippets": 5,
+  "codium.rag.maxRemoteSnippets": 5,
+  "mcpServers": {},
+  "terminal.integrated.suggest.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "workbench.iconTheme": "material-icon-theme",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:claude-sonnet-4",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "C:\\Users\\Tien\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\Tien\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+    "C:\\Users\\Tien\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\Tien\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\Tien\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\Tien\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true
+  },
+  "chat.mcp.serverSampling": {
+    "Global in Code: imagesorcery": {
+      "allowedModels": [
+        "github.copilot-chat/claude-3.7-sonnet",
+        "github.copilot-chat/claude-3.7-sonnet-thought",
+        "github.copilot-chat/claude-sonnet-4",
+        "github.copilot-chat/gemini-2.0-flash-001",
+        "github.copilot-chat/gemini-2.5-pro",
+        "github.copilot-chat/gpt-4.1",
+        "github.copilot-chat/gpt-4o",
+        "github.copilot-chat/o3-mini",
+        "github.copilot-chat/o4-mini"
+      ]
+    }
+  },
+  "kilo-code.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "kilo-code.deniedCommands": [],
+  "roo-cline.deniedCommands": [],
+  "jupyter.askForKernelRestart": false,
+  "database-client.autoSync": true,
+  "remote.SSH.remotePlatform": {
+    "*.gitpod.io": "linux"
+  },
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.path": "c:\\Users\\Tien\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\21.1.0\\clangd_21.1.0\\bin\\clangd.exe",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "git.autofetch": true,
+  "chat.viewSessions.enabled": false,
+}
